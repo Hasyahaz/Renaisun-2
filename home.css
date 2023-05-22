@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Vollkorn+SC:wght@700&display=swap');
+
+
+:root {
+    --main-color: #1D267D;
+    --body-color: #ffff;
+    --main-font: 'Poppins', sans-serif;
+    --second-font: 'Vollkorn SC', serif;
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+.navbar {
+    transition: all 0.5s;
+
+}
+
+.navbar a {
+    color: white;
+    transition: transform .2s;
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+}
+
+.navbar-scrolled {
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+/* Section - Title */
+/**************************/
+
+/* Section - Block */
+/**************************/
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url('Banner1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.parallax-one .text-wrapper h2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.parallax-one .text-wrapper h6 {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {
+    border-bottom: 1px solid black;
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*LATBEL */
+.service .service-wrapper {
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.service-wrapper .heading-service {
+    color: #1D267D;
+
+}
+
+.service-wrapper .label-service {
+    max-width: 600px;
+    margin: 10px 75px;
+    margin: auto;
+}
+
+.row2 p {
+    font-size: 0.8rem;
+}
+
+
+.service-wrapper .row1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service-wrapper .row2 {
+    background-color: #1D267D;
+    justify-content: center;
+    margin: 50px;
+
+    display: flex;
+    gap: 30px;
+    border-radius: 20px;
+}
+
+.row2 .box-service {
+    position: relative;
+    color: azure;
+    padding: 30px;
+}
+
+.box-service i {
+    font-size: 1.8rem;
+}
+
+
+.box-service .btn-learn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0C134F;
+    width: 100%;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+    transition: 0.4s ease-in-out;
+    padding: 5px;
+}
+
+
+.box-service:hover .btn-learn {
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+    transition: 0.4s ease-in-out;
+
+}
+
+.btn-learn p {
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+.faq-header {
+
+    border-bottom: 1px dotted #ccc;
+    padding: 24px;
+    background: #fcfcfc;
+    align-items: center;
+    text-align: center;
+}
+
+.faq-header h5 {
+    color: #1D267D;
+}
+
+#accordionFlushExample {
+    max-width: 800px;
+}
+
+
+
+#about {
+    background-color: #1D267D;
+    height: 1500px;
+}
+
+
+#tentang-kami {
+    border-bottom: 5px solid white;
+
+}
+
+#nopi {
+
+
+    margin-right: 50px;
+}
+
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+/* Centered text */
+.centered {
+    
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.4s ease-in-out;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+    #parallax-world-of-ugg .block {
+        padding: 40px;
+        width: 620px;
+    }
+
+    #parallax-world-of-ugg .parallax-one {
+        height: 300px;
+    }
+
+    .parallax-one .text-wrapper h2 {
+        top: 50%;
+        left: 50%;
+    }
+
+    .parallax-one .text-wrapper h6 {
+        top: 50%;
+        left: 50%;
+    }
+
+    .service-wrapper .row2 {
+
+        margin: 10px;
+
+        display: flex;
+        gap: 20px;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+    #parallax-world-of-ugg .block {
+        padding: 30px;
+        width: 420px;
+        height: 300px;
+    }
+
+    #parallax-world-of-ugg h2 {
+        font-size: 30px;
+    }
+
+    #parallax-world-of-ugg .block {
+        padding: 30px;
+    }
+
+    #parallax-world-of-ugg .parallax-one,
+    #parallax-world-of-ugg .parallax-two,
+    #parallax-world-of-ugg .parallax-three {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #parallax-world-of-ugg .parallax-one {
+        height: 600px;
+    }
+
+    .parallax-one .text-wrapper h2 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .parallax-one .text-wrapper h6 {
+        margin: 0;
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .service-wrapper .row2 {
+
+        margin: 10px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 479px) {
+    #parallax-world-of-ugg .block {
+        padding: 30px 15px;
+        width: 290px;
+        height: 300px;
+    }
+
+    #parallax-world-of-ugg .parallax-one {
+        height: 600px;
+    }
+
+    .parallax-one .text-wrapper h2 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .parallax-one .text-wrapper h6 {
+        margin: 0;
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .service-wrapper .row2 {
+
+        margin: 10px;
+
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+
+}
