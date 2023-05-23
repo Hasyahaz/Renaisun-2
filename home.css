@@ -396,16 +396,21 @@ font-weight: bold;
         width: 620px;
     }
 
-    #parallax-world-of-ugg .parallax-one {
+    #parallax-world-of-ugg .parallax-one,
+    #parallax-world-of-ugg .parallax-two {
         height: 300px;
     }
 
-    .parallax-one .text-wrapper h2 {
+   
+
+    .parallax-one .text-wrapper h2,
+    .parallax-two .text-wrapper h2 {
         top: 50%;
         left: 50%;
     }
 
-    .parallax-one .text-wrapper h6 {
+    .parallax-one .text-wrapper h6,
+    .parallax-two .text-wrapper h6 {
         top: 50%;
         left: 50%;
     }
@@ -484,7 +489,11 @@ font-weight: bold;
         height: 600px;
     }
 
-    .parallax-one .text-wrapper h2 {
+    #parallax-world-of-ugg .parallax-two {
+        height: 600px;
+    }
+    .parallax-one .text-wrapper h2,
+    .parallax-two .text-wrapper h2 {
         margin: 0;
         position: absolute;
         top: 50%;
@@ -492,7 +501,8 @@ font-weight: bold;
         transform: translate(-50%, -50%);
     }
 
-    .parallax-one .text-wrapper h6 {
+    .parallax-one .text-wrapper h6,
+    .parallax-two .text-wrapper h6 {
         margin: 0;
         position: absolute;
         top: 58%;
@@ -552,7 +562,12 @@ font-weight: bold;
         height: 800px;
     }
 
-    .parallax-one .text-wrapper h2 {
+    #parallax-world-of-ugg .parallax-two {
+        height: 800px;
+    }
+
+    .parallax-one .text-wrapper h2,
+    .parallax-two .text-wrapper h2 {
         margin: 0;
         position: absolute;
         top: 40%;
@@ -560,7 +575,8 @@ font-weight: bold;
         transform: translate(-50%, -50%);
     }
 
-    .parallax-one .text-wrapper h6 {
+    .parallax-one .text-wrapper h6, 
+    .parallax-two .text-wrapper h6{
         margin: 0;
         position: absolute;
         top: 48%;
