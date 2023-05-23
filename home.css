@@ -65,7 +65,7 @@ body {
 }
 
 .parallax-one .text-wrapper h6 {
-    
+
     margin: auto;
     text-align: center;
     color: white;
@@ -112,34 +112,39 @@ body {
 
 /* Scroller styling */
 .scroller {
-    
-    
+
+
     height: 1.2em;
     line-height: 1.2em;
     position: relative;
     overflow: hidden;
-    
-}
-.scroller > span {
-position: relative;
-top: 0;
-animation: slide 5s infinite;
-font-weight: bold;
 
 }
-@keyframes slide {
-0% {
+
+.scroller>span {
+    position: relative;
     top: 0;
+    animation: slide 5s infinite;
+    font-weight: bold;
+
 }
-25% {
-    top: -1.2em;
-}
-50% {
-    top: -2.4em;
-}
-75% {
-    top: -3.6em;
-}
+
+@keyframes slide {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -1.2em;
+    }
+
+    50% {
+        top: -2.4em;
+    }
+
+    75% {
+        top: -3.6em;
+    }
 }
 
 
@@ -281,7 +286,7 @@ font-weight: bold;
 
 /* Centered text */
 .centered {
-    
+
     position: absolute;
     top: 90%;
     left: 50%;
@@ -297,94 +302,126 @@ font-weight: bold;
 
 
 
-#wadah{
+#wadah {
     background-color: #1D267D;
     width: 800px;
     height: 500px;
-    margin-top: 40px; 
-    margin-bottom: 40px; 
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 20px;
 }
 
 
-.map-container{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
     background-color: #fcfcfc;
     top: 100px;
     border-radius: 15px;
     margin-right: 10px;
 }
-  .map-container iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
     background-color: aqua;
 }
 
 
-#isi-kontak{
+#isi-kontak {
     padding-right: 150px;
 }
 
 
-#hubungi-kami{
+#hubungi-kami {
     margin-right: 80%;
 }
 
 
 
-.section-title {
-	text-align: center;
-	padding: 25px 0;
+
+
+
+/* footer */
+.footer {
+    background: #86bcff;
+    min-height: 60vh;
 }
-.section-title h2 {
-	font-size: 60px;
-	text-transform: uppercase;
-	font-family: oswald;
-	font-weight: 700;
-	text-shadow: 0 1px 2px rgba(0, 0, 0.1);
+
+.footer .desc {
+    font-style: normal;
+    
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 36px;
 }
-.section-title h2 span {
-	color: yellow;
+
+.footer h5 {
+    font-style: normal;
+    
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
 }
-.contact-form {
-	background-color: #fff;
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	padding: 40px 30px;
+
+.footer a {
+    font-style: normal;
+    
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff !important;
+    margin-top: 20px;
 }
-.contact-form .btn {
-	background: yellow;
-	text-transform: uppercase;
-	font-weight: 700;
-	padding: 10px 50px;
-	letter-spacing: 2px;
+
+.footer a:hover {
+    font-size: 20px;
+    
 }
-.map-area {
-	width: 600px;
-	height: 465px;
-	background: #fff;
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+.footer .copytext {
+    margin-top: 90px;
 }
-.map-area iframe {
-	width: 100%;
-	height: 100%;
-	border: none;
+
+.footer .copytext p {
+    border-top: 1px solid white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*responsive*/
 
 @media (max-width: 991px) {
-	.contact-form {
-		margin-bottom: 30px;
-	}
-	.map-area {
-		width: 100%;
-		height: 400px;
-	}
+    .contact-form {
+        margin-bottom: 30px;
+    }
+
+    .map-area {
+        width: 100%;
+        height: 400px;
+    }
 }
 
 
@@ -401,7 +438,7 @@ font-weight: bold;
         height: 300px;
     }
 
-   
+
 
     .parallax-one .text-wrapper h2,
     .parallax-two .text-wrapper h2 {
@@ -425,41 +462,41 @@ font-weight: bold;
     }
 
     #about {
-        
+
         height: 1500px;
     }
 
-    #wadah{
+    #wadah {
         background-color: #1D267D;
         width: 600px;
         height: 500px;
-        margin-top: 40px; 
-        margin-bottom: 40px; 
+        margin-top: 40px;
+        margin-bottom: 40px;
         border-radius: 20px;
     }
 
 
-    .map-container{
+    .map-container {
         width: 400px;
         margin-left: 90px;
     }
 
 
-    #isi-kontak{
+    #isi-kontak {
         padding-right: 150px;
         align-items: start;
         background-color: #fcfcfc;
     }
 
 
-    #hubungi-kami{
+    #hubungi-kami {
         margin-right: 60%;
     }
-    
-    
-   
 
-    
+
+
+
+
 
 }
 
@@ -492,6 +529,7 @@ font-weight: bold;
     #parallax-world-of-ugg .parallax-two {
         height: 600px;
     }
+
     .parallax-one .text-wrapper h2,
     .parallax-two .text-wrapper h2 {
         margin: 0;
@@ -521,32 +559,32 @@ font-weight: bold;
     }
 
     #about {
-        
+
         height: 1400px;
     }
 
-    #wadah{
+    #wadah {
         background-color: #1D267D;
         width: 400px;
         height: 550px;
-        margin-top: 40px; 
-        margin-bottom: 40px; 
+        margin-top: 40px;
+        margin-bottom: 40px;
         border-radius: 20px;
     }
-    
-  
-    .map-container{
+
+
+    .map-container {
         width: 300px;
         margin-left: 40px;
-        
+
     }
 
-    #hubungi-kami{
+    #hubungi-kami {
         margin-right: 60%;
     }
-    
 
-    
+
+
 
 
 }
@@ -575,8 +613,8 @@ font-weight: bold;
         transform: translate(-50%, -50%);
     }
 
-    .parallax-one .text-wrapper h6, 
-    .parallax-two .text-wrapper h6{
+    .parallax-one .text-wrapper h6,
+    .parallax-two .text-wrapper h6 {
         margin: 0;
         position: absolute;
         top: 48%;
@@ -599,34 +637,34 @@ font-weight: bold;
     }
 
     #about {
-        
+
         height: 1350px;
     }
 
-    #wadah{
+    #wadah {
         background-color: #1D267D;
         width: 350px;
         height: 500px;
-        margin-top: 40px; 
-        margin-bottom: 40px; 
+        margin-top: 40px;
+        margin-bottom: 40px;
         border-radius: 20px;
-        
-    }
-    
-  
 
-    #hubungi-kami{
+    }
+
+
+
+    #hubungi-kami {
         font-size: 1.2rem;
     }
 
-    .map-container{
+    .map-container {
         width: 300px;
         margin-left: 12px;
     }
-   
-    
-    
-    #hubungi-kami{
+
+
+
+    #hubungi-kami {
         margin-right: 40%;
     }
 
