@@ -182,7 +182,7 @@ body {
 
 #about {
     background-color: #1D267D;
-    height: 1500px;
+    height: 1200px;
 }
 
 
@@ -235,6 +235,46 @@ body {
 
 
 
+#wadah{
+    background-color: #1D267D;
+    width: 800px;
+    height: 500px;
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+    border-radius: 20px;
+}
+
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    background-color: #fcfcfc;
+    top: 100px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    background-color: aqua;
+}
+
+
+#isi-kontak{
+    padding-right: 150px;
+}
+
+
+#hubungi-kami{
+    margin-right: 80%;
+}
+
+
 
 /* Media Queries */
 /**************************/
@@ -267,7 +307,42 @@ body {
 
     }
 
+    #about {
+        
+        height: 1500px;
+    }
 
+    #wadah{
+        background-color: #1D267D;
+        width: 600px;
+        height: 500px;
+        margin-top: 40px; 
+        margin-bottom: 40px; 
+        border-radius: 20px;
+    }
+
+
+    .map-container{
+        width: 400px;
+        margin-left: 90px;
+    }
+
+
+    #isi-kontak{
+        padding-right: 150px;
+        align-items: start;
+        background-color: #fcfcfc;
+    }
+
+
+    #hubungi-kami{
+        margin-right: 60%;
+    }
+    
+    
+   
+
+    
 
 }
 
@@ -323,7 +398,33 @@ body {
 
     }
 
+    #about {
+        
+        height: 1500px;
+    }
 
+    #wadah{
+        background-color: #1D267D;
+        width: 400px;
+        height: 550px;
+        margin-top: 40px; 
+        margin-bottom: 40px; 
+        border-radius: 20px;
+    }
+    
+  
+    .map-container{
+        width: 300px;
+        margin-left: 40px;
+        
+    }
+
+    #hubungi-kami{
+        margin-right: 60%;
+    }
+    
+
+    
 
 
 }
@@ -367,6 +468,38 @@ body {
 
     p {
         font-size: 0.9rem;
+    }
+
+    #about {
+        
+        height: 1500px;
+    }
+
+    #wadah{
+        background-color: #1D267D;
+        width: 350px;
+        height: 500px;
+        margin-top: 40px; 
+        margin-bottom: 40px; 
+        border-radius: 20px;
+        
+    }
+    
+  
+
+    #hubungi-kami{
+        font-size: 1.2rem;
+    }
+
+    .map-container{
+        width: 300px;
+        margin-left: 12px;
+    }
+   
+    
+    
+    #hubungi-kami{
+        margin-right: 40%;
     }
 
 

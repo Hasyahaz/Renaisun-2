@@ -15,7 +15,7 @@
 <body>
     <!-- navbar -->
     <nav class="navbar fixed-top navbar-expand-lg ">
-        <div class="container-fluid mx-3 ps-5 ">
+        <div class="container-fluid mx-3  ">
             <a class="navbar-brand " href="#">
                 <img src="Logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
 
@@ -27,9 +27,9 @@
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                 <div class="navbar-nav navbar-nav-scroll ms-auto me-5 pe-3 gap-4">
                     <a class="nav-link" href="#" id="nav-text">Home</a>
-                    <a class="nav-link" href="#" id="nav-text1">Permasalahan</a>
-                    <a class="nav-link" href="#" id="nav-text2">Solusi</a>
-                    <a class="nav-link" href="#" id="nav-text3">Tentang</a>
+                    <a class="nav-link" href="#benefit" id="nav-text1">Permasalahan</a>
+                    <a class="nav-link" href="#sol" id="nav-text2">Solusi</a>
+                    <a class="nav-link" href="#about" id="nav-text3">Tentang</a>
                     <a class="nav-link" href="#" id="nav-text4">Hubungi Kami</a>
                 </div>
             </div>
@@ -105,7 +105,7 @@
     </section>
 
 
-    <section class="solusi pb-5">
+    <section class="solusi pb-5" id="sol">
         <div class="faq-header mt-5 mb-5">
             <h2>Bagaimana Mengatasi Masalah Tersebut?</h2>
             <h5>Dengan 3 Pilar Solusi: Clean Energy, Jaminan Mutu, Konetivitas</h5>
@@ -247,6 +247,61 @@
     </section>
 
 
+ 
+
+
+    <section id="contact">
+        <div id="contact-us" data-aos="fade-up"
+            style="margin-left: 3%;margin-right: 3%;border-radius:20px; padding: 2%; background-color: #1D267D; margin-top: 30px;" >
+            <div id="hubungi-kami" class="section-header mb-3">
+                <h3  class="title text-light pb-2" style="border-bottom: 4px solid white;">Hubungi Kami</h3>
+            </div>
+            <div class="row">
+                <div class="col-xl-6" data-aos="zoom-in" style="padding-bottom: 2%;">
+                    <div class="contact-us-img " style="background-color: #FFFFFF; padding: 0%; border-radius:20px;">
+                        <img id="foto-renaisun" src="WhatsApp Image 2023-05-23 at 13.36.51.jpeg" alt=""
+                            style="width: 100%; border-radius: 20px;">
+                    </div>
+                </div>
+
+                <div class="col-xl-6" data-aos="zoom-in">
+                    <div class="row align-items-start" style="padding-bottom: 2%; padding-right: 0;" id="contact-wa-mail">
+                        <div id="wa" class="col-sm-6 text-center" data-aos="zoom-in"
+                            style="background: white; border-radius:20px;margin-right: 2%; float: left; width: 49%;height: 49%" >
+                            <img src="whatsapp-logo-48.png" class="img-fluid contact-img" alt="">
+                            <div class="mini-box contact-wa-container" style="margin-left: 5%">
+                                <h4 class="title wa-title">WhatsApp</h4>
+                                <p class="description wa-phone">+62 857 0008 5336</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-center" data-aos="zoom-in"
+                            style="background: #0a58ca;border-radius:20px; float: left;width: 49%;height: 49%">
+                            <img src="whatsapp-logo-48.png" class="img-fluid contact-img"
+                                alt="" data-aos-delay="600">
+                            <div class="mini-box contact-email-container" style="margin-left: 5%">
+                                
+                                <p class="description mail-email">hello@elevarm.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="contact-address-link">
+                        <div class="col-sm-12 text-center " data-aos="zoom-in"
+                            style="border-radius:20px;background: #FFFFFF; margin-right: 1%;width: 100%;height: 49%;float: left;">
+                            <img src="whatsapp-logo-48.png" class="img-fluid contact-img"
+                                alt="" data-aos-delay="600">
+                            <div class="mini-box" style="margin-right: 2%; ">
+                                <h4 class="title office-title">Headquarter office</h4>
+                                <p class="description office-address" style="margin-bottom: 3%">Jl. Ir. H. Juanda (Dago)
+                                    No.477A, Bandung 40135</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            s
+        </div>
+    </section>
+
 
 
 
@@ -268,7 +323,7 @@
     <script>
         var swiper = new Swiper(".mySwiper", {
             effect: "coverflow",
-            
+
 
             slidesPerView: "auto",
             coverflowEffect: {
