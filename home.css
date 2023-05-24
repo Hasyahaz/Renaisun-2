@@ -493,6 +493,14 @@ body {
         margin-right: 60%;
     }
 
+    #sahas{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    #fleks{
+        flex-direction: column-reverse;
+    }
 
 
 
@@ -583,7 +591,14 @@ body {
         margin-right: 60%;
     }
 
+    #sahas{
+        flex: 100%;
+        max-width: 100%;
+    }
 
+    #fleks{
+        flex-direction: column-reverse;
+    }
 
 
 
@@ -668,5 +683,13 @@ body {
         margin-right: 40%;
     }
 
+    #sahas{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    #fleks{
+        flex-direction: column-reverse;
+    }
 
 }
